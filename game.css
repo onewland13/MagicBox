@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: middle;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+body {
+  background-color: lightblue;
+  width: 100vw;
+  height: 100vh;
+  
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+div#gameScreen {
+	background-color: #FFFDD0;
+	display: inline-block;
+	min-width: 300px;
+	min-height: 150px;
+}
+
+@media screen and (min-aspect-ratio: 2/1) {
+	div#gameScreen {
+		width: 200vh;
+		height: 100vh;
+	}
+}
+
+@media screen and (max-aspect-ratio: 2/1) {
+	div#gameScreen {
+		width: 100vw;
+		height: 50vw;
+	}
+}
