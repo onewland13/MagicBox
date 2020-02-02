@@ -5,8 +5,8 @@ This a small collection of critical files from the more complex framework that s
 
 It includes:
 - MagicBox.py, a class that provides an interface to simulate the game
-- MagicBoxAgent.py, a class that provides a SARSA learning agent to learn how to play the game
-- grid_search_example.py, a script that grid searches the best hyperparamaters for learning the game
+- MagicBoxAgent.py, a class that provides a SARSA learning agent that learns how to play the game
+- grid_search_example.py, a script that grid searches the best hyperparamaters for learning the game, and saves its value function as a nice JSON object
 - game.js, the webapp script that powers the online version of the game
 - game.css, some styling
 
